@@ -51,16 +51,20 @@ const questions = [
 
 // function to write README file
 function writeToFile(data) {
-    fs.appendFile("ReadMe.md", generateMarkdown(data))
+    console.log("Here")
+    fs.writeFile("ReadMe.md", generateMarkdown(data), (err) => {
+        if (err) throw (err)
+    })
+    console.log("success")
 }
 
 // function to initialize program
 function init() {
     try{
         inquirer.prompt(questions)
-        .then(response => {
-            console.log(response);
-            writeToFile(response);
+        .then(data => {
+            console.log(data);
+            writeToFile(data);
         })
         .catch(error=>{
             console.log("Error: " + error);
