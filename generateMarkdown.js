@@ -5,10 +5,10 @@ ${data.license}
 ${data.description}
 # Table of contents: 
 <a href="#install">Installation</a><br>
-<a href="#install">Usage</a><br>
-<a href="#install">Contributing</a><br>
-<a href="#install">Tests</a><br>
-<a href="#install">Questions</a><br>
+<a href="#usage">Usage</a><br>
+<a href="#contributing">Contributing</a><br>
+<a href="#tests">Tests</a><br>
+<a href="#questions">Questions</a><br>
 
 # Installation 
 <a id="install">${data.install}</a>
