@@ -4,19 +4,22 @@ function generateMarkdown(data) {
 ${data.license}
 ${data.description}
 # Table of contents: 
+<a href="#install">Installation</a>
+<a href="#install">Usage</a>
+<a href="#install">Contributing</a>
+<a href="#install">Tests</a>
+<a href="#install">Questions</a>
 
-
-
-<a id = "install"># Installation </a>
-${data.install}
+# Installation 
+<a id="install">${data.install}</a>
 # Usage
-${data.usage}
+<a id="#usage">${data.usage}</a>
 # Contributing
-${data.contributing}
+<a id="#contributing">${data.contributing}</a>
 # Tests
-${data.tests}
+<a id="#tests">${data.tests}</a>
 # Questions
-${data.questions}
+<a id="#questions">${data.questions}</a>
 `;
 }
 
