@@ -1,6 +1,6 @@
-# t
-d
-a
+# a
+[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+s
 # Table of contents: 
 <a href="#install">Installation</a><br>
 <a href="#install">Usage</a><br>
@@ -9,12 +9,12 @@ a
 <a href="#install">Questions</a><br>
 
 # Installation 
-<a id="install">undefined</a>
+<a id="install">d</a>
 # Usage
-<a id="#usage">s</a>
+<a id="#usage">f</a>
 # Contributing
-<a id="#contributing">f</a>
+<a id="#contributing">s</a>
 # Tests
-<a id="#tests">g</a>
+<a id="#tests">d</a>
 # Questions
-<a id="#questions">h</a>
+<a id="#questions">s</a>

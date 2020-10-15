@@ -16,6 +16,11 @@ const questions = [
         message: "Give a short description of your project: ",
         name: "description"
     },
+    {
+        type: "input",
+        message: "Installation instructions: ",
+        name: "install"
+    },
     // Table of contents
     // Usage
     {
@@ -25,9 +30,18 @@ const questions = [
     },
     // License
     {
-        type: "input",
+        type: "list",
         message: "Give the licensing of your product: ",
-        name: "license"
+        name: "license",
+        choices: [
+            "[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)"
+            ,
+            "[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)"
+            ,
+            "[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](http://cv.lbesson.qc.to/)"
+            ,
+            "[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)"
+        ]
     },
     // Contributing
     {
@@ -49,6 +63,7 @@ const questions = [
     },
 ];
 
+
 // function to write README file
 function writeToFile(data) {
     console.log("Here")
@@ -60,16 +75,16 @@ function writeToFile(data) {
 
 // function to initialize program
 function init() {
-    try{
+    try {
         inquirer.prompt(questions)
-        .then(data => {
-            console.log(data);
-            writeToFile(data);
-        })
-        .catch(error=>{
-            console.log("Error: " + error);
-        })
-    }catch(err){
+            .then(data => {
+                console.log(data);
+                writeToFile(data);
+            })
+            .catch(error => {
+                console.log("Error: " + error);
+            })
+    } catch (err) {
         console.log("Error: " + err);
     }
 }
