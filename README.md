@@ -12,8 +12,8 @@ This project helps soothe the iritation that comes from creating ReadMe files fo
 # Installation 
 <a id="install">
 Fork the repo and install all dependencies defined in the package.json!
-<a href = "Untitled_ Oct 15, 2020 3_54 PM.webm"></a>
 </a>
+<a href = "Untitled_ Oct 15, 2020 3_54 PM.webm"></a>
 # Usage
 <a id="#usage">Feel free to fork and use at your own pleasure!</a>
 # Contributing
