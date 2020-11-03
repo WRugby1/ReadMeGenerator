@@ -11,7 +11,7 @@ This project helps soothe the iritation that comes from creating ReadMe files fo
 
 # Installation 
 <a id="install">Fork the repo and install all dependencies defined in the package.json!</a>
-<iframe src = "Untitled_ Oct 15, 2020 3_54 PM.webm"></iframe>
+<iframe src = "./tutorial.webm"></iframe>
 
 # Usage
 <a id="#usage">Feel free to fork and use at your own pleasure!</a>
