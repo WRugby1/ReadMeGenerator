@@ -10,9 +10,9 @@ This project helps soothe the iritation that comes from creating ReadMe files fo
 <a href="#install">Questions</a><br>
 
 # Installation 
-<a id="install">Fork the repo and install all dependencies defined in the package.json!</a>
-[![Tutorial video](https://drive.google.com/file/d/14-DoZgkE8VbYENu2dTEc8GVqzUdXsTJ9/view?usp=sharing)
-
+<a id="install">Fork the repo and install all dependencies defined in the package.json!
+Follow this link for a tutorial video: 
+https://drive.google.com/file/d/14-DoZgkE8VbYENu2dTEc8GVqzUdXsTJ9/view?usp=sharing</a>
 
 # Usage
 <a id="#usage">Feel free to fork and use at your own pleasure!</a>
